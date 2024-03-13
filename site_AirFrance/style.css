@@ -1,0 +1,62 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the whole page */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the content */
+center {
+    margin-top: 50px;
+}
+
+/* Style the header */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the navigation links */
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* Give a subtle shadow to the images */
+img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Enlarge images on hover */
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Style the page content */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add some spacing between elements */
+.container > * {
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #f4f4f4; /* Fallback color in case the background image is not loaded */
+    background-image: url('images/fond.png');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    font-family: Arial, sans-serif;
+}
+
